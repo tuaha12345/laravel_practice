@@ -1,0 +1,17 @@
+Make project with composer:
+      composer create-project laravel/laravel laravelcrud9
+
+Run server:
+    php artisan serve 
+
+Create Database
+    CREATE DATABASE laravel
+
+Make Controller:
+    php artisan make:controller StudentController
+
+Create Model with migration:
+     php artisan make:model Student -m
+
+Make migration:
+      php artisan migrate
