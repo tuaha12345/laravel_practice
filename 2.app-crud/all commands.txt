@@ -1,0 +1,17 @@
+Make project with composer:
+      composer create-project laravel/laravel app-crud
+
+Run server:
+    php artisan serve 
+
+Create Database
+    CREATE DATABASE laravel_crud
+
+Make Controller:
+    php artisan make:controller ProductController
+
+Create Model:
+     php artisan make:model Product
+
+Make migration:
+      php artisan migrate
