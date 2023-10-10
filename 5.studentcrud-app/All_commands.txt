@@ -1,0 +1,16 @@
+Create project: 
+       composer create-project laravel/laravel studentcrud-app
+
+In Laravel create the table called as Migration
+Run the command to create the Migration:
+       php artisan make:migration create_students_table
+
+After modified the columns names  then run the migrate 
+command to create the tables in the databases:
+       php artisan migrate
+
+Make controller:
+     php artisan make:controller StudentController --resource (if you use --resource the crud will create automatically)
+
+Create Model:
+     php artisan make:model Student
