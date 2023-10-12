@@ -1,0 +1,10 @@
+Create projct:
+       composer create-project laravel/laravel LaravelCRUD
+Create Model:
+       php artisan make:model Product -m(m for migration)
+Make migration:
+        php artisan migrate:fresh
+
+Make controller:
+       php artisan make:controller ProductController    
+       
